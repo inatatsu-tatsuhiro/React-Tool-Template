@@ -10,4 +10,6 @@ $ npx -p @storybook/cli sb init --type react
 $ hygen comopnent new // npm i -g hygen する必要があるかも
 $ yarn start
 $ yarn storybook
+$ git add .
+$ git commit -m ":tada: init"
 ```
