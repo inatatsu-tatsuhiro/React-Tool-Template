@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^29.1.2",
+    "jest": "^29.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -19,7 +21,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint --fix --ext .tsx,.ts src",
     "format": "prettier  \"**/*\" --write --ignore-unknown",
-    "prepare": "husky install && yarn husky add .husky/pre-commit \"yarn lint-staged\"",
+    "husky:init": "husky install && yarn husky add .husky/pre-commit \"yarn lint-staged\"",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
