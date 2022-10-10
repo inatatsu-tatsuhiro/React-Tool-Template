@@ -1,9 +1,9 @@
 import React from 'react'
 
 function App() {
-  const name = "inatatsu"
+  const name = 'inatatsu'
 
-  const hello=()=> `Hello ${name}`
+  const hello = () => `Hello ${name}`
 
   return <div className="App"> {hello()}</div>
 }

@@ -12,5 +12,5 @@ const Template: ComponentStory<typeof TextBox> = (args) => <TextBox {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {
-  label: 'test text box',
+  label: 'Test TextBox',
 }
